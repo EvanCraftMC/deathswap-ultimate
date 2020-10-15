@@ -7,3 +7,4 @@ team modify spectator color gray
 
 scoreboard objectives add options dummy
 scoreboard objectives add deathcount deathCount
+scoreboard objectives add swap dummy
