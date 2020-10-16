@@ -21,7 +21,7 @@ execute as @a[scores={swap=1},team=blue] at @s run tp @s @e[tag=redsm,scores={sw
 execute as @a[scores={swap=2},team=blue] at @s if entity @e[tag=redsm,scores={swap=2}] run tp @s @e[tag=redsm,scores={swap=2},limit=1]
 execute as @a[scores={swap=2..3},team=blue] at @s unless entity @e[tag=redsm,scores={swap=2}] run tp @s @e[tag=redsm,scores={swap=1},limit=1]
 execute as @a[scores={swap=3},team=blue] at @s run tp @s @e[tag=redsm,scores={swap=3},limit=1]
-execute as @a[scores={swap=3},team=blue] at @s unless entity @e[tag=redsm,scores={swap=3] run tp @s @e[tag=redsm,scores={swap=2},limit=1]
+execute as @a[scores={swap=3},team=blue] at @s unless entity @e[tag=redsm,scores={swap=3}] run tp @s @e[tag=redsm,scores={swap=2},limit=1]
 
 execute as @a[scores={swap=1},team=red] at @s run tp @s @e[tag=bluesm,scores={swap=1},limit=1]
 execute as @a[scores={swap=2},team=red] at @s if entity @e[tag=bluesm,scores={swap=2}] run tp @s @e[tag=bluesm,scores={swap=2},limit=1]
